@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
             bottomSheetFragment.show(supportFragmentManager, bottomSheetFragment.tag)
         }
 
-
+//
         stockListView.setOnItemLongClickListener { _, _, position, _ ->
 
             val selectedStock = stocks[position]
